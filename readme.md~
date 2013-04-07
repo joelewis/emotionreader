@@ -1,0 +1,19 @@
+## Emotion Recognition and Classification of news Articles
+
+An implementation of Emotion Recoginition in text and classifying documents accordingly, as a BBC News Android Client.  
+
+Uses two libraries  
++ (synesketch)[http://synesketch.com]
++ (Android-rss)[http://github.com/ahorn/android-rss] 
+
+Reads rss of BBC and classifies news rticles based on six emotions:
+
++ Joy
++ Sadness
++ Fear 
++ Anger
++ Disgust
++ Surprise
+
+Minimum sdk required to run: 14
+
