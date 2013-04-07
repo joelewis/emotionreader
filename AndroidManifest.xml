@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.emotionbbc"
+    package="com.fix.emotionbbc"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -15,10 +15,10 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <service android:name="com.example.emotionbbc.DataCollection" />
+        <service android:name="com.fix.emotionbbc.DataCollection" />
 
         <activity
-            android:name="com.example.emotionbbc.MainActivity"
+            android:name="com.fix.emotionbbc.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,12 +27,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.emotionbbc.EmotionBBC"
+            android:name="com.fix.emotionbbc.EmotionBBC"
             android:label="@string/title_activity_emotion_bbc"
-            android:parentActivityName="com.example.emotionbbc.MainActivity" >
+            android:parentActivityName="com.fix.emotionbbc.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.emotionbbc.MainActivity" />
+                android:value="com.fix.emotionbbc.MainActivity" />
         </activity>
     </application>
 

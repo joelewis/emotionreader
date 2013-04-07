@@ -3,7 +3,7 @@ package com.fix.emotionbbc;
 
 import java.util.ArrayList;
 
-import com.example.emotionbbc.R;
+import com.fix.emotionbbc.R;
 
 import android.content.Context;
 import android.graphics.Color;

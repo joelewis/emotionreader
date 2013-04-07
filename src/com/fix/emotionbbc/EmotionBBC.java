@@ -3,7 +3,7 @@ package com.fix.emotionbbc;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import com.example.emotionbbc.R;
+import com.fix.emotionbbc.R;
 
 import android.content.Context;
 import android.content.Intent;

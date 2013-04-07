@@ -1,6 +1,6 @@
 package com.fix.emotionbbc;
 
-import com.example.emotionbbc.R;
+import com.fix.emotionbbc.R;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
