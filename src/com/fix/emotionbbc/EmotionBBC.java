@@ -3,10 +3,11 @@ package com.fix.emotionbbc;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import com.fix.emotionbbc.R;
+import org.mcsoxford.rss.RSSItem;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -19,11 +20,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
 public class EmotionBBC extends FragmentActivity {
 	public static Context EmotionBBCcontext;
+	public static ListView lvc;
 	 
 	
 	private static ArrayList<String> joy = new ArrayList<String>();
@@ -220,6 +222,7 @@ public class EmotionBBC extends FragmentActivity {
 		 * fragment.
 		 */
 		public static final String ARG_SECTION_NUMBER = "section_number";
+		public static ListView lv1;
 
 		public DummySectionFragment() {
 		}
@@ -253,7 +256,10 @@ public class EmotionBBC extends FragmentActivity {
 			//		ARG_SECTION_NUMBER)));
 		    lv.setAdapter(adapter);
 			return rootView;
+				
 		}
+	            
+		   
 	}
 
 }
